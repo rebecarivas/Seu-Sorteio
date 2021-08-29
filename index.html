@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Seu Sorteio</title>
+</head>
+
+<body>
+    <header id="header">
+        <img class="titulo" src="./Logo seu sorteio.png" alt="logo seu sorteio">
+        <br>
+        <div class="pergunta"><p>Você deseja sortear...</p></div> 
+        <br>
+        <div class="botoes">
+            <a class="botao link" href="#numero">Número</a>
+            <a class="botao link" href="#nome">Nome</a>
+        </div>
+    </header>
+
+    <main id="main">
+            <section id="numero">
+                <h2 class="pergunta2">Sorteio de Números</h2>
+                <div class="inputs">
+                    <input class="input" id="min" type="number" name="minimum" placeholder="Digite o número inicial">
+                    <input class="input" id="max" type="number" name="maximum" placeholder="Digite o número final">
+                </div>
+                <br>
+                <h1 id="result"></h1>
+                <button type="button" class="botao sortear" onclick="sort()">Sortear</button>
+                <button type="button" class="botao apagar" onclick="remove()">Limpar</button>
+                
+            </section>
+
+            <section id="nome">
+                <h2 class="pergunta2">Sorteio de Nomes</h2>
+                <input class="input" type="text" id="input" name="name" placeholder="Digite o nome">
+                <button class="add" onclick="add()">+</button>
+                <ul id="lista">
+                    <li id="item"></li>
+                </ul>
+                <h2 id="resultado"></h2>
+                <button type="button" class="botao sortear" onclick="sorteio()">Sortear</button> 
+                <button type="button" class="botao apagar" onclick="apagar()">Limpar</button>
+                <!--tem que colocar type button pq o default é submit-->
+            </section>
+    </main>
+
+    <footer></footer>
+    
+    <script src="./script.js"></script>
+</body>
+
+</html>

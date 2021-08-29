@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+    padding: 30px;
+    text-align: center;
+    color: #9fe7f5;
+    background-color: #053f5c;
+    background-size: cover;
+    font-family: "Montserrat", sans-serif;
+    
+}
+#main{
+    text-align: center;
+    background-color: #f2f2f2;
+    font-family: "Montserrat", sans-serif;
+}
+
+#numero{
+    padding: 20px;
+}
+#nome{
+    padding: 20px;
+}
+.titulo, .pergunta {
+    margin: 70px;
+}
+.botoes{
+    margin: 100px;
+    margin-bottom: 120px;
+    
+}
+.pergunta{
+        font-size: 40px;
+        font-family: "Montserrat";
+        color: rgb(159, 231, 245);
+        font-weight: bold;
+        line-height: 0.704;
+}
+.pergunta2{
+    font-size: 40px;
+        font-family: "Montserrat";
+        color: rgb(5, 63, 92);
+        font-weight: bold;
+        line-height: 0.704;
+        margin: 30px;
+        padding: 30px;
+}
+.botao{
+    border-radius: 25px;
+    padding: 10px 25px 10px 25px;
+    margin: 20px;
+    border: 1px solid;
+    font-size: 25px;
+    font-family: "Montserrat";
+}
+.link{
+    text-decoration: none;
+    color: #9fe7f5;
+    background-color: #053f5c;
+    border-color: #abccd3;
+}
+.link:hover{
+    background-color: #f2f2f2;
+    color: #6594ab;
+    border-color: #053f5c;
+}
+.sortear{
+    color: #9fe7f5;
+    background-color: #053f5c;
+    border: rgb(101, 148, 171);
+    
+}
+.sortear:hover{
+    background-color: #ffffff;
+    color: #053f5c;
+    border-color: #053f5c;
+}
+.apagar{
+    border-color: #053f5c;
+    background-color: rgb(255, 255, 255);
+    color: rgb(101, 148, 171);
+}
+.input{
+    border-radius: 20px;
+    border: 1px solid rgb(101, 148, 171);
+    background-color: rgb(250, 250, 250);
+    font-size: 20px;
+    text-align: left;
+    font-family: "Montserrat";
+    color: rgb(101, 148, 171);
+    padding: 10px;
+}
+input::placeholder{
+    color: rgb(101, 148, 171);
+    font-size: 18px;
+}
+.inputs{
+    margin: 30px;
+}
+#lista, #resultado{
+    list-style-type: none;
+}
+#result, #resultado{
+    font-size: 70px;  
+    color: #053f5c;
+}
+#item{
+    font-size: 30px;
+    padding: 30px;
+    color: #053f5c;
+}
+.add{
+    border: 1px solid rgb(159, 231, 245);
+    background-color: rgb(101, 148, 171);
+    border-radius: 30px;
+    font-size: 30px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    width: 41px;
+    height: 39px;
+}
+
+  
+  
+  
+  
+      
+    
+
+  
