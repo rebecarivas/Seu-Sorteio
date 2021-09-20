@@ -10,14 +10,12 @@
 
 <body>
     <header id="header">
-        <img class="titulo" src="./Logo seu sorteio.png" alt="logo seu sorteio">
+       <img  class="titulo"src="./Logo seu sorteio.png" alt="logo seu sorteio">
         <br>
         <div class="pergunta"><p>Você deseja sortear...</p></div> 
         <br>
-        <div class="botoes">
-            <a class="botao link" href="#numero">Número</a>
-            <a class="botao link" href="#nome">Nome</a>
-        </div>
+        <div class="botao"><a  class="link" href="#numero">Número</a></div>
+        <div class="botao"><a  class="link" href="#nome">Nome</a></div>
     </header>
 
     <main id="main">
@@ -44,11 +42,12 @@
                 <h2 id="resultado"></h2>
                 <button type="button" class="botao sortear" onclick="sorteio()">Sortear</button> 
                 <button type="button" class="botao apagar" onclick="apagar()">Limpar</button>
-                <!--tem que colocar type button pq o default é submit-->
             </section>
     </main>
 
-    <footer></footer>
+    <footer id="footer">
+        <p>©Todos os direitos reservados 2021 - SeuSorteio</p>
+    </footer>
     
     <script src="./script.js"></script>
 </body>

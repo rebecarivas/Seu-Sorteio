@@ -4,11 +4,11 @@
 }
 
 #header{
-    padding: 30px;
+    padding: 150px;
     text-align: center;
     color: #9fe7f5;
     background-color: #053f5c;
-    background-size: cover;
+   
     font-family: "Montserrat", sans-serif;
     
 }
@@ -18,33 +18,26 @@
     font-family: "Montserrat", sans-serif;
 }
 
-#numero{
+#numero, #nome{
     padding: 20px;
 }
-#nome{
-    padding: 20px;
-}
+
 .titulo, .pergunta {
     margin: 70px;
 }
-.botoes{
-    margin: 100px;
-    margin-bottom: 120px;
-    
-}
+
 .pergunta{
         font-size: 40px;
         font-family: "Montserrat";
         color: rgb(159, 231, 245);
         font-weight: bold;
-        line-height: 0.704;
+        
 }
 .pergunta2{
     font-size: 40px;
         font-family: "Montserrat";
         color: rgb(5, 63, 92);
         font-weight: bold;
-        line-height: 0.704;
         margin: 30px;
         padding: 30px;
 }
@@ -55,6 +48,7 @@
     border: 1px solid;
     font-size: 25px;
     font-family: "Montserrat";
+    display: inline-block;
 }
 .link{
     text-decoration: none;
@@ -122,8 +116,22 @@ input::placeholder{
     width: 41px;
     height: 39px;
 }
+#footer{
+    font-family: "Montserrat";
+    color: #053f5c;
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 20px;
+}
 
-  
+
+@media screen and (max-width: 500px){
+    #header{padding: 0; margin: 0;}
+    .titulo{width: 250px; height: 70px; }
+    .pergunta{font-size: 30px;}
+    .input{margin: 10px;}  
+}
+
   
   
   
