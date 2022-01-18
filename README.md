@@ -1,3 +1,3 @@
-# Seu-Sorteio
+# WebSite Seu Sorteio
  
-Página de sorteio de números e nomes https://seusorteio.com.br/
+Website de sorteio de números e nomes utilizando HTML, CSS e JavaScript. Pode ser acessado pelo endereço: https://seusorteio.com.br/
